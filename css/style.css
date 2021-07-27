@@ -141,7 +141,7 @@ header{
     color: #fff;
     font-size: 50px;
     background: #302e2e;
-    padding: 0px 11px;
+    padding: 0 11px;
     transition: all ease-in-out .4s;
 }
 .owl-one .owl-next span{
@@ -156,6 +156,9 @@ header{
 }
 .owl-one .owl-prev:hover span{
     background: #f39c12;
+}
+.owl-item.active{
+    margin: 0;
 }
 
 /* about part start  */
@@ -370,7 +373,7 @@ color: #fff;
     background: #7e7d7d;
     color: #fff;
     text-transform: uppercase;
-    transition: all ease-in-out 4s;
+    transition: all ease-in-out .4s;
     font-size: 14px;
 }
 .btn-more:hover{
@@ -419,7 +422,7 @@ color: #fff;
 }
 /* feedback part start  */
 .feedback{
-    margin: 10px;
+    margin: 40px;
 }
 .client h6{
     font-weight: 600;
@@ -436,11 +439,11 @@ color: #fff;
     display: flex;
 }
 .client{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .client-img{
     width: 11%;
-    margin: 10px 20px;
+    margin: 16px 20px;
 }
 .client-img img{
     /* margin: 10px 30px; */
@@ -521,6 +524,7 @@ color: #fff;
 .form form input[type="submit"]{
     padding-bottom: 0;
     margin-top: 11px;
+    border: none;
     width: 20%;
     background: #f39c12;
     height: 40px;
@@ -553,3 +557,77 @@ color: #fff;
 .form form textarea:focus-visible{
     outline: none;
 }
+
+/* map part start  */
+.map{
+    position: relative;
+    line-height: none;
+}
+.map form {
+    padding: 15px;
+    background: #f39c12;
+    position: absolute;
+    right: 11%;
+    top: 44%;
+}
+.map form h6{
+    color: #fff;
+    margin: 0;
+}
+.map form h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.map form p{
+    font-size: 14px;
+    color: #fff;
+}
+.map form span {
+    color: #fff;
+    font-weight: 400;
+}
+.map form a{
+    color: #fff;
+    font-weight: 200;
+}
+
+.icon{padding: 30px 0;}
+.icon ul{
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.icon ul li{
+    padding: 0 4px;
+    list-style: none;
+}
+.icon ul li i{
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #f39c12;
+    transition: ease-in-out .4s;
+    border: 1px solid #b9b9b9;
+}
+.icon ul i:hover{
+    background: #f39c12;
+    color: #fff;
+    border: 1px #f39c12 solid;
+}
+
+.foot{
+    background: #f39c12;
+}
+footer p{
+        text-align: center;
+        margin-top: 25px;
+}
+footer p a{
+    color: #fff;
+    transition: ease-in-out .4s;
+}
+
+
